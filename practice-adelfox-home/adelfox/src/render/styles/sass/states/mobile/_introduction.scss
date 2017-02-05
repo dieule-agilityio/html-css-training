@@ -1,0 +1,13 @@
+// responsive style for introduction on mobile
+@media only screen and (min-width: $screen-xs) and (max-width: $screen-sm - 1) {
+  .introduction {
+    .introduction-content {
+      .introduction-item {
+        &__image {
+          @include background-image('introduction/img-mobile.jpg', 100%, 100%, 100% 100%, bottom center, no-repeat);
+        }
+      }
+    }
+  }
+}
+

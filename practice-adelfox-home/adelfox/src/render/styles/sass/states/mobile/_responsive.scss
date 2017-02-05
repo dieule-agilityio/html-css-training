@@ -1,0 +1,14 @@
+// responsive style for features-summary section on mobile
+@media only screen and (min-width: $screen-xs) and (max-width: $screen-sm - 1) {
+  .features-summary__illustration {
+    @include background-image("responsive/screen-responsive-mobile.png", 200px, 100%, cover, bottom center, no-repeat);
+  }
+
+  .features-summary__title {
+    margin-top: 40px;
+  }
+
+  .tablet-display {
+    display: none;
+  }
+}

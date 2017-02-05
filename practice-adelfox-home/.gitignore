@@ -1,0 +1,12 @@
+
+.git
+
+vagrant/.vagrant
+
+adelfox/node_modules
+
+adelfox/bower_components
+
+adelfox/vendors
+
+adelfox/out

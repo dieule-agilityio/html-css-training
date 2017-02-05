@@ -1,0 +1,12 @@
+// responsive style for introduction section on desktop
+@media screen and (min-width: $screen-md) {
+ .introduction {
+    .introduction-content {
+      .introduction-item {
+        &__image {
+        	@include background-image('introduction/img.jpg', 100%, 100%, cover, bottom center, no-repeat);
+        }
+      }
+    }
+	}
+}
